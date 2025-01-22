@@ -4,3 +4,4 @@ SOC was selected.
 
 This repository provides the design files for only the hardware part of the project.
 
+# Hardware Architecture

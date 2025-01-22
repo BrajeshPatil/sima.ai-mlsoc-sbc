@@ -48,7 +48,8 @@ The repository contains directories for all sub-sections of the hardware layout.
 ├───SPI Bus
 ├───System Clocks
 ├───UART
-├───WiFi Module                      
+├───WiFi Module
+├───images                      
 ├───LICENSE                                   
 ├───README.md                                 
 ```

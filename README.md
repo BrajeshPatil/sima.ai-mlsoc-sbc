@@ -24,18 +24,34 @@ Features of the SBC:
     - The TPS548D22 IC is used to generate 0.85V Core Voltage.
     - SiC437DED used for generating 1.8V and 1.1V.
     - The PMIC Switching Regulator is used to generate 3.3V, 1.8V, 2.5V and 4.2V.
-6. The SoC contains 3 SPI controllers.
-    - 1 SPI controller has been provided externally.
-    - The other 2 SPI chipsets have been used to implement a QSPI Flash Memory using a MUX and a DEMUX. 
-7. The 2 I2C Controllers have been provided on the SBC. These can be used for interfacing with sensors, storage devices, displays or any device working on I2C Protocol.
+6. The SoC contains 3 SPI Buses.
+    - 1 SPI Bus has been provided externally.
+    - The other 2 SPI Buses have been used to implement a QSPI Flash Memory using a MUX and a DEMUX. 
+7. The 2 I2C Buses have been provided on the SBC. These can be used for interfacing with sensors, storage devices, displays or any device working on I2C Protocol.
 8. The eMMC interface includes a clock (CLK), command (CMD), and an 8-bit data bus (D0-D7), with separate power pins for core (VCC), I/O (VCCQ), and stabilization (VDDI). It also features DS for HS-400 mode, card detect (CRD DET N), and write protect (CRD WR PROT) functionality.
 9. The MLSoCsupports SD3.0 controller interface for loading the boot files from an external SD card. A Micro-SD Push-Push connector with P/N 693071020811 is used for interfacing the external SD card with the MLSoC Evaluation Board.
 10. JTAG Test functionality has been provided by providing access to them through a 2x14 Pin Shrouded Connector.
 11. The GPS and GSM functionalities for tracking the vehicle's location and enabling SMS communication have been implemented using the A9G Ai-Thinker module. The clock and reset circuitry has also been employed. 
 
 # File structure
- 
 The repository contains directories for all sub-sections of the hardware layout.
+```
+.
+├───Boot Modes and Status                  
+├───DRAM Interface
+├───Gigabit Ethernet
+├───GPIO
+├───GSM and GPS Module
+├───I2C Bus
+├───Non Volatile Memory
+├───Power Management
+├───SPI Bus
+├───System Clocks
+├───UART
+├───WiFi Module                      
+├───LICENSE                                   
+├───README.md                                 
+```
 
 # Contributors
 - [Karteek Nayak](https://github.com/Karteek-N)

@@ -5,7 +5,7 @@ Serial peripheral interface (SPI) allows synchronous serial communication (full 
   - Dual Master/Slave operation
   - 25 MHz SDR operation
 
-# SPI Bus: Hardware Architecture
+### Hardware Architecture
 <img src="https://github.com/user-attachments/assets/b18118c5-215a-4848-9190-a3415c54e1a6" alt="Image description" width="500" />
 
 - SPI0 and SPI1 are the two SPI interfaces present in the MLSoC.
@@ -13,5 +13,5 @@ Serial peripheral interface (SPI) allows synchronous serial communication (full 
 - To connect to the header, the voltage must first be translated from 1.8V to 3.3V. An 8-bit level translator, TXS0108EPWR, is used for this purpose.
 - Since we have more number of SPI pins, we’ll be connecting the other pins to 4bit Level Translators with P/N TXS0104EPWR.
 
-# SPI Bus: Schematic
+### Schematic
 ![image](https://github.com/user-attachments/assets/fd821908-e835-4490-b8ef-d6771ea92e52)

@@ -1,5 +1,6 @@
-# UART: Hardware Architecture
+### UART: Hardware Architecture
 ![image](https://github.com/user-attachments/assets/5f25dbf4-0788-4409-9abb-8ac16746ff41)
+
 The information related to UART is given below:
 
 - The FT2232HL-REELIC is used as a USB-to-UART transceiver for Linux Boot (UART2) and Troot Boot (UARTB).  The VBUS voltage from the USB Type-C connector (P/N TYPE-C-31-M-12) is directly connected to the RESET pin of the FTDI.

@@ -32,3 +32,5 @@ VDDA1P8 pin is left unconnected. We have connected 1µF and 0.1µF decoupling ca
 <img src="https://github.com/user-attachments/assets/a2c76512-b62c-4fe8-a3c1-5f8329f63f92" alt="Image description" width="400" />
 
 The DP83867 has multiple functional pins which provide strapping options which help the device work into specific modes. Values of these pins are sampled at power up or hard reset. Strap Configuration can be defined by two resistors Rhi and Rlo. Values of these resistors can be set in order to select one of the four modes. We have used SGMII ENABLE i.e. Mode 1 for LED_0.
+
+The tables given below can be used for boot strapping: 

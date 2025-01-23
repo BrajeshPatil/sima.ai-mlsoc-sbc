@@ -33,4 +33,34 @@ VDDA1P8 pin is left unconnected. We have connected 1µF and 0.1µF decoupling ca
 
 The DP83867 has multiple functional pins which provide strapping options which help the device work into specific modes. Values of these pins are sampled at power up or hard reset. Strap Configuration can be defined by two resistors Rhi and Rlo. Values of these resistors can be set in order to select one of the four modes. We have used SGMII ENABLE i.e. Mode 1 for LED_0.
 
-The tables given below can be used for boot strapping: 
+### Ideal Resistor Values for Strapping Configurations
+| Mode | Vmin (V) | Vtyp (V) | Vmax (V) | Ideal Rhi (kΩ) | Ideal Rlo (kΩ) |
+|------|----------|----------|----------|----------------|----------------|
+| 1    | 0        | 0        | 0.098 * VDDIO | OPEN          | OPEN          |
+| 2    | 0.140 * VDDIO | 0.165 * VDDIO | 0.191 * VDDIO | 10             | 2.49           |
+| 3    | 0.225 * VDDIO | 0.255 * VDDIO | 0.284 * VDDIO | 5.76           | 2.49           |
+| 4    | 0.694 * VDDIO | 0.783 * VDDIO | 0.888 * VDDIO | 2.49           | OPEN          |
+
+### Modes of Operation for LED_0
+| Mode | Mirror Enable | SGMII Enable |
+|------|---------------|--------------|
+| 1    | 0             | 0            |
+| 2    | 0             | 1            |
+| 3    | 1             | 0            |
+| 4    | 1             | 1            |
+
+### Modes of Operation for LED_1
+| Mode | ANEG_SEL | RGMII Clock Skew TX[2] |
+|------|----------|------------------------|
+| 1    | 0        | 0                      |
+| 2    | 0        | 1                      |
+| 3    | 1        | 0                      |
+| 4    | 1        | 1                      |
+
+### Modes of Operation for LED_2
+| Mode | RGMII Clock Skew TX[1] | RGMII Clock Skew TX[0] |
+|------|------------------------|------------------------|
+| 1    | 0                      | 0                      |
+| 2    | 0                      | 1                      |
+| 3    | 1                      | 0                      |
+| 4    | 1                      | 1                      |

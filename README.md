@@ -34,24 +34,50 @@ Features of the SBC:
 11. The GPS and GSM functionalities for tracking the vehicle's location and enabling SMS communication have been implemented using the A9G Ai-Thinker module. The clock and reset circuitry has also been employed. 
 
 # File structure
-The repository contains directories for all sub-sections of the hardware layout.
+The repository contains directories for all sub-sections of the hardware layout. In-depth explanation of all the sub-sections have been included in these directories.
 ```
 .
-├───Boot Modes and Status                  
+│   LICENSE                        # This file contains the license information for the project.
+│   README.md                      # This file provides an overview of the project.
+├───Boot Modes and Status
+│   │   README.md                  # Description of boot modes and status indicators.
+│   └───Altium Designer Files      # Contains Altium Designer files related to boot modes and status.
 ├───DRAM Interface
+│   │   README.md                  # Information about DRAM interface and configurations.
+│   └───Altium Designer Files      # Contains Altium Designer files related to the DRAM interface.
 ├───Gigabit Ethernet
+│   │   README.md                  # Details about Gigabit Ethernet setup and configurations.
+│   └───Altium Designer Files      # Contains Altium Designer files for Gigabit Ethernet.
 ├───GPIO
+│   │   README.md                  # General Purpose Input/Output (GPIO) configurations and usage.
+│   └───Altium Designer Files      # Contains Altium Designer files for GPIO.
 ├───GSM and GPS Module
+│   │   README.md                  # Documentation for GSM and GPS module integration.
+│   └───Altium Designer Files      # Contains Altium Designer files for GSM and GPS module.
 ├───I2C Bus
+│   │   README.md                  # Information about the I2C Bus interface and connections.
+│   └───Altium Designer Files      # Contains Altium Designer files for the I2C Bus.
+├───images
+│   ├───hardware-design            # Images related to hardware design.
+│   └───hardware-functionality     # Images showing hardware functionality.
 ├───Non Volatile Memory
+│   │   README.md                  # Documentation on non-volatile memory usage and types.
+│   └───Altium Designer Files      # Contains Altium Designer files for non-volatile memory.
 ├───Power Management
+│   │   README.md                  # Details about power management strategies and configurations.
+│   └───Altium Designer Files      # Contains Altium Designer files for power management.
 ├───SPI Bus
+│   │   README.md                  # Information about SPI Bus interface and protocols.
+│   └───Altium Designer Files      # Contains Altium Designer files for SPI Bus.
 ├───System Clocks
+│   │   README.md                  # Documentation on system clocks and timing configurations.
+│   └───Altium Designer Files      # Contains Altium Designer files for system clocks.
 ├───UART
-├───WiFi Module
-├───images                      
-├───LICENSE                                   
-├───README.md                                 
+│   │   README.md                  # Information about UART (Universal Asynchronous Receiver-Transmitter) interface.
+│   └───Altium Designer Files      # Contains Altium Designer files for UART interface.
+└───WiFi Module
+    │   README.md                  # Documentation on WiFi module setup and configurations.
+    └───Altium Designer Files      # Contains Altium Designer files for WiFi module.                   
 ```
 
 # Contributors

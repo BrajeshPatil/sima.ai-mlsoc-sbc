@@ -1,7 +1,7 @@
 # I2C Bus
 This section discusses about the implementation of two I2C Buses in the design. I2C is an important communication protocol which can be used to communicate with sensors or other external devices through its two buses, a Clock Pin and a Data Pin.
 
-# I2C Bus: Hardware Architecture
+### Hardware Architecture
 ![image](https://github.com/user-attachments/assets/933bdb28-e007-4592-9b6e-e3e70f1563f8)
 - The MLSoC provides two I2C buses: I2C0 and I2C1, each with SDA (data) and SCK (clock) pins.
 - MLSoC I2C operates on 1.8V logic, while most sensors use 3.3V logic.
@@ -12,5 +12,5 @@ This section discusses about the implementation of two I2C Buses in the design. 
 - The 3.3V I2C buses are connected to a 15-91-6082 C-Grid Connector, which also operates on 3.3V logic.
 - Users can access the 3.3V I2C buses via the C-Grid Connector.
 
-# I2C Bus: Schematic
+### Schematic
 ![image](https://github.com/user-attachments/assets/2d751dc0-59f9-4320-a4b0-d804f74d5ca4)

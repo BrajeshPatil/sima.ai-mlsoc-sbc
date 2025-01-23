@@ -6,6 +6,6 @@ The MLSoC supports 32 GPIO for various I/O operations. An ESD protection is adde
   - GPIO[29] is connected with a LED for testing purposes.
   - GPIO[30] and GPIO[31] are used to software switch the multiplexer with P/N TS3A27518ERTWR used in QSPI flash.
 
-# GPIO: Schematics
+### Schematic
 <img src="https://github.com/user-attachments/assets/b865f17b-eec6-42e1-bfd3-f766c22dafa2" alt="Image 1" width="400"/>
 <img src="https://github.com/user-attachments/assets/dfc1dbc6-b625-4b61-baae-3a3627bd9107" alt="Image 2" width="400"/>

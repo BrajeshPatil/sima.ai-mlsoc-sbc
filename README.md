@@ -1,7 +1,7 @@
 # sima.ai_mlsoc_sbc
 The Single Board Computer designed using the SiMa.ai MLSoC is a part of a project that I did under ARTPARK. The SBC was designed in order to run computationally heavy softwares such as SLAM, VIO and Autonomous Guidance Systems. The SiMa.ai MLSoC which is a state-of-the-art ML-based SOC was selected.
 
-This repository provides the design files for only the hardware part of the project.
+This repository provides the design files for only the hardware part of the project. [Altium Designer](https://www.altium.com/altium-designer) has been used for designing the Single Board Computer.
 
 # Hardware Architecture
 ![Hardware Layout](https://raw.githubusercontent.com/BrajeshPatil/sima.ai_mlsoc_sbc/main/images/hardware-functionality/Hardware_Layout.png)
@@ -79,7 +79,6 @@ The repository contains directories for all sub-sections of the hardware layout.
     │   README.md                  # Documentation on WiFi module setup and configurations.
     └───Altium Designer Files      # Contains Altium Designer files for WiFi module.                   
 ```
-
 # Contributors
 - [Karteek Nayak](https://github.com/Karteek-N)
 - [Brajesh Patil](https://github.com/BrajeshPatil)

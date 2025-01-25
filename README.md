@@ -1,5 +1,5 @@
 # sima.ai_mlsoc_sbc
-The Single Board Computer designed using the SiMa.ai MLSoC is a part of a project that I did under ARTPARK. The SBC was designed in order to run computationally heavy softwares such as SLAM, VIO and Autonomous Guidance Systems. The SiMa.ai MLSoC which is a state-of-the-art ML-based SOC was selected.
+The Single Board Computer designed using the SiMa.ai MLSoC is a part of a project that I did under ARTPARK. The SBC was designed to run computationally heavy software such as SLAM, VIO, and Autonomous Guidance Systems for UAV applications. The SiMa.ai MLSoC, a state-of-the-art ML-based SOC, was selected for this purpose.
 
 This repository provides the design files for only the hardware part of the project. [Altium Designer](https://www.altium.com/altium-designer) has been used for designing the Single Board Computer.
 
